@@ -8,6 +8,18 @@ touch_sharepoint_link= "https://happy365.sharepoint.com/:u:/r/sites/ProductDevel
 terminal_sharepoint_link = "https://happy365.sharepoint.com/:u:/s/MariachiEXT/EQO4nZM_cJVMveWeDyMb_NgB90s8ad5rS5zXezWIUlB7ZA?e=SkBniZ"
 mini_sharepoint_link = "https://happy365.sharepoint.com/:u:/r/sites/MariachiEXT/SitePages/Smiley-Minim-Serial-Schema.aspx?csf=1&web=1&share=EfGtKrCS6DdEl0UbQNDWV7sBPN1JaJyqtWLKoTyrdERT6g&e=cZQ66V"
 
+# Inject Raleway font
+st.markdown(
+    """
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+    html, body, [class*="css"]  {
+        font-family: 'Raleway', sans-serif;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # --- Load schema ---
 with open("schemas.json") as f:
@@ -15,12 +27,13 @@ with open("schemas.json") as f:
 
 # --- Card template ---
 card_style = """
-<div style="background-color:#f1f2f6;padding:15px;margin-bottom:10px;
+<div style="background-color:#ffffff;padding:15px;margin-bottom:10px;
             border-radius:10px;color:black;">
 <h4 style="margin:0;color:black;">{title}</h4>
 <p style="margin:0;font-size:18px;">{value}</p>
 </div>
 """
+
 
 
 # --- Year Week DeviceNumber Validation section ---
@@ -413,7 +426,7 @@ if submit and serial_input:
     missing_hint = get_missing_segments_hint(serial_input)
     if missing_hint:
         st.toast(f"Add more characters to fill: {missing_hint}", icon="⚠️")
-        st.badge(f"Add more characters to fill: {missing_hint}", icon=":material/exclamation:", color="yellow")
+        st.badge(f"Add more characters to fill: {missing_hint}", icon="⚠️", color="orange")
     
     # --- Error display ---
     for e in errors:
