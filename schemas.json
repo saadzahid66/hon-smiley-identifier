@@ -1,0 +1,159 @@
+{
+	"SmileyTouch": {
+		"formats": [
+			"YYWWTGRHWDXXXX",
+			"YYWWCGRHWDXXXX"
+		],
+		"type": {
+			"T": "Smiley Touch",
+			"C": "Smiley Touch with camera hole"
+		},
+		"generation": {
+			"1": "SM-T585 (T1000)",
+			"2": "SM-T595 (T1100)",
+			"3": "SM-T515 (T3100)",
+			"4": "SM-T505 (T4100)",
+			"5": "SM-X205 (T5100)",
+			"6": "SM-X216 (T6100)"
+		},
+		"radio": {
+			"1": "LTE",
+			"2": "WIFI (reserved, not in production)"
+		},
+		"hardware": {
+			"0": "VESA compatible, 0.5m USB",
+			"1": "Free (legacy floor model)",
+			"2": "Free (legacy wall model)"
+		},
+		"cables": {
+			"10": "Random USB + antimicrobial screen protector (from 44/2020)",
+			"12": "All Zhenfu + antimicrobial protector (from 44/2020)",
+			"13": "One 5m USB-C cable, no connectors",
+			"30": "Touch A-cover with larger window (no antimicrobial)",
+			"00": "Random USB cables (Zhenfu/Juicebit mix)",
+			"01": "JuiceBitz UI cable + Zhenfu frame/extension",
+			"02": "All Zhenfu"
+		}
+	},
+	"LegacyTouch1000": {
+		"formats": [
+			"YYWWAAXXXX",
+			"YYWWABXXXX",
+			"YYWWACXXXX"
+		],
+		"type": {
+			"A": "Smiley Touch - T1000"
+		},
+		"generation": "Samsung SM-T585",
+		"cables": {
+			"AA": "Default 1.08m USB cable",
+			"AB": "Stand with 1.0m USB cable",
+			"AC": "Stand + Zhenfu USB (instead of Juicebitz)"
+		}
+	},
+	"LegacyTouch1100_3100": {
+		"formats": [
+			"YYWWTGRHWDXXXX"
+		],
+		"type": {
+			"T": "Smiley Touch"
+		},
+		"generation": {
+			"1": "SM-T585 (T1000)",
+			"2": "SM-T595 (T1100)",
+			"3": "SM-T515 (T3100)"
+		},
+		"radio": {
+			"1": "LTE",
+			"2": "WIFI"
+		},
+		"hardware": {
+			"1": "Floor",
+			"2": "Wall"
+		},
+		"cables": {
+			"12": "All Zhenfu + Antibacterial screen shield",
+			"01": "JuiceBitz UI + Zhenfu frame/extension",
+			"02": "All Zhenfu"
+		}
+	},
+	"SmileyTerminal": {
+		"format": "YYWWTGRHWDXXXX",
+		"type": {
+			"V": "Smiley Terminal (Standard, Table, Rail)",
+			"X": "Smiley Wall (Wall attachment)"
+		},
+		"generation": {
+			"1": "Case v1",
+			"3": "Case v3"
+		},
+		"radio": {
+			"3": "SARA U201",
+			"4": "SARA G350",
+			"5": "LISA RC200",
+			"6": "SARA U270",
+			"7": "SARA-U260",
+			"8": "SARA R410M",
+			"9": "SARA N211",
+			"A": "SARA R510S-00B",
+			"B": "SARA N310",
+			"C": "SARA R510S-01B",
+			"D": "LEXI R10011D"
+		},
+		"network": {
+			"3": "3G JPN",
+			"4": "2G",
+			"5": "CDMA",
+			"6": "3G Global",
+			"7": "3G US",
+			"8": "LTE-M",
+			"9": "NB-IoT",
+			"A": "LTE-M",
+			"B": "NB-IoT",
+			"C": "LTE-M",
+			"D": "4G"
+		},
+		"hardware": {
+			"0": "Standard Terminal PCB",
+			"1": "Standard Terminal PCB"
+		},
+		"changelog": {
+			"01": "Components as of 1.6.2022",
+			"02": "Changed component X to Y / new crystal"
+		}
+	},
+	"SmileyMini": {
+		"format": "YYWWTGRHWDXXXX",
+		"type": {
+			"M": "Smiley Mini"
+		},
+		"generation": {
+			"1": "SARA Module PCB Design",
+			"2": "LEXI Module PCB Design"
+		},
+		"radio": {
+			"8": "SARA R410M",
+			"9": "SARA N211",
+			"A": "SARA R510S-00B",
+			"B": "SARA N310",
+			"C": "SARA R510S-01B",
+			"D": "LEXI R10011D"
+		},
+		"network": {
+			"8": "LTE-M",
+			"9": "NB-IoT",
+			"A": "LTE-M)",
+			"B": "NB-IoT",
+			"C": "LTE-M",
+			"D": "4G"
+		},
+		"hardware": {
+			"0": "Standard Mini PCB"
+		},
+		"changelog": {
+			"01": "Components as of 1.6.2022",
+			"02": "Changed component X to Y / new crystal",
+			"03": "Without G sensor"
+		}
+	}
+}
