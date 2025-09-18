@@ -1,87 +1,78 @@
 {
 	"SmileyTouch": {
-		"formats": [
-			"YYWWTGRHWDXXXX",
-			"YYWWCGRHWDXXXX"
-		],
-		"type": {
-			"T": "Smiley Touch",
-			"C": "Smiley Touch with camera hole"
-		},
-		"generation": {
-			"1": "SM-T585 (T1000)",
-			"2": "SM-T595 (T1100)",
-			"3": "SM-T515 (T3100)",
-			"4": "SM-T505 (T4100)",
-			"5": "SM-X205 (T5100)",
-			"6": "SM-X216 (T6100)"
-		},
-		"radio": {
-			"1": "LTE",
-			"2": "WIFI (reserved, not in production)"
-		},
-		"hardware": {
-			"0": "VESA compatible, 0.5m USB",
-			"1": "Free (legacy floor model)",
-			"2": "Free (legacy wall model)"
-		},
-		"cables": {
-			"10": "Random USB + antimicrobial screen protector (from 44/2020)",
-			"12": "All Zhenfu + antimicrobial protector (from 44/2020)",
-			"13": "One 5m USB-C cable, no connectors",
-			"30": "Touch A-cover with larger window (no antimicrobial)",
-			"00": "Random USB cables (Zhenfu/Juicebit mix)",
-			"01": "JuiceBitz UI cable + Zhenfu frame/extension",
-			"02": "All Zhenfu"
-		}
-	},
-	"LegacyTouch1000": {
+  "formats": {
+    "T": "YYWWTGRHWDXXXX",
+    "C": "YYWWCGRHWDXXXX"
+  },
+  "type": {
+    "T": "Smiley Touch",
+    "C": "Smiley Touch (camera hole)"
+  },
+  "model": {
+    "1": "SM-T585 - Samsung Galaxy Tab A 10.1(2016)", 
+    "2": "SM-T595 - Samsung Galaxy Tab A 10.5", 
+    "3": "SM-T515 - Samsung Galaxy Tab A 10.1 (2019)",
+    "4": "SM-T505 - Samsung Galaxy Tab A7 10.4 (2020)",
+    "5": "SM-X205 - Samsung Galaxy Tab A8 10.5 (2021)",
+    "6": "SM-X216 - Samsung Galaxy TAB A9+ 5G"
+  },
+  "generation": {
+    "1": "HON-T1000",
+    "2": "HON-T1100",
+    "3": "HON-T3100",
+    "4": "HON-T4100",
+    "5": "HON-T5100",
+    "6": "HON-T6100"
+  },
+  "radio": {
+    "1": "LTE",
+    "2": "WIFI"
+  },
+  "hardware": {
+    "0": "VESA compatible, 0.5m USB",
+    "1": "Free (legacy floor model)",
+    "2": "Free (legacy wall model)"
+  },
+  "cables": {
+    "00": "Random USB cables (Zhenfu/Juicebit mix)",
+    "01": "JuiceBitz UI cable + Zhenfu frame/extension",
+    "02": "All Zhenfu",
+    "10": "Random USB + antimicrobial screen protector (from 44/2020)",
+    "12": "All Zhenfu + antimicrobial protector (from 44/2020)",
+    "13": "One 5m USB-C cable, no connectors",
+    "30": "Touch A-cover with larger window (no antimicrobial)"
+  },
+  "specifications": {
+    "1": "10.1 inch 1920x1200 (224ppi), No Camera, 7300 mAh, micro-USB",
+    "2": "10.5 inch 1920x1200 (216ppi), No Camera, 7300 mAh, USB-C",
+    "3": "10.1 inch 1920x1200 (224ppi), Camera with Android 10, 6150 mAh, USB-C",
+    "4": "10.4 inch 2000x1200 (224ppi), Camera enabled, 7040 mAh, USB-C",
+    "5": "10.5 inch 1920x1200 (216ppi), Camera enabled, 7040 mAh, USB-C",
+    "6": "11 inch 1920x1200 (206ppi), Camera enabled, 7040 mAh, USB-C"
+  }
+  },
+	"Touch1000": {
 		"formats": [
 			"YYWWAAXXXX",
 			"YYWWABXXXX",
 			"YYWWACXXXX"
 		],
 		"type": {
-			"A": "Smiley Touch - T1000"
+			"A": "Smiley Touch - HONT1000"
 		},
-		"generation": "Samsung SM-T585",
+		"generation": "SM-T585 - Samsung Galaxy Tab A (2016)",
+    "hardware": "10.1 inch (1920x1200, 224ppi), No Camera, 7300 mAh, micro-USB",
 		"cables": {
 			"AA": "Default 1.08m USB cable",
 			"AB": "Stand with 1.0m USB cable",
 			"AC": "Stand + Zhenfu USB (instead of Juicebitz)"
 		}
 	},
-	"LegacyTouch1100_3100": {
-		"formats": [
-			"YYWWTGRHWDXXXX"
-		],
-		"type": {
-			"T": "Smiley Touch"
-		},
-		"generation": {
-			"1": "SM-T585 (T1000)",
-			"2": "SM-T595 (T1100)",
-			"3": "SM-T515 (T3100)"
-		},
-		"radio": {
-			"1": "LTE",
-			"2": "WIFI"
-		},
-		"hardware": {
-			"1": "Floor",
-			"2": "Wall"
-		},
-		"cables": {
-			"12": "All Zhenfu + Antibacterial screen shield",
-			"01": "JuiceBitz UI + Zhenfu frame/extension",
-			"02": "All Zhenfu"
-		}
-	},
 	"SmileyTerminal": {
 		"format": "YYWWTGRHWDXXXX",
 		"type": {
 			"V": "Smiley Terminal (Standard, Table, Rail)",
-			"X": "Smiley Wall (Wall attachment)"
+			"X": "Smiley Terminal (Wall attachment)"
 		},
 		"generation": {
 			"1": "Case v1",
@@ -114,8 +105,7 @@
 			"D": "4G"
 		},
 		"hardware": {
-			"0": "Standard Terminal PCB",
-			"1": "Standard Terminal PCB"
+			"0": "Standard Terminal PCB"
 		},
 		"changelog": {
 			"01": "Components as of 1.6.2022",
@@ -142,7 +132,7 @@
 		"network": {
 			"8": "LTE-M",
 			"9": "NB-IoT",
-			"A": "LTE-M)",
+			"A": "LTE-M",
 			"B": "NB-IoT",
 			"C": "LTE-M",
 			"D": "4G"
